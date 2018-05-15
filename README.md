@@ -28,7 +28,11 @@ BISON data retrieved through SOLR API
 https://data.usgs.gov/solr/occurrences/select?q=scientificName:(%22Pica%20hudsonia%22)&wt=geojson&indent=true&geojson.field=geo
 
 Park Boundaries retrieved through API made available by NPS I&M API
-http://irmaservices.nps.gov/v2/rest/unit/CODE/geography?detail=envelope&dataformat=wkt&format=json"
+http://irmaservices.nps.gov/v2/rest/unit/CODE/geography?detail=envelope&dataformat=wkt&format=json
+
+or use of SFR:
+
+https://beta-gc2.datadistillery.org/api/v1/elasticsearch/search/bcb/sfr/placenamelookup_poly/_search?q={%22from%22:0,%22size%22:15,%22_source%22:%22properties.*%22,%22query%22:{%22match_phrase_prefix%22:{%22properties.place_name%22:{%22query%22:%22canyons%22,%22max_expansions%22:100}}}}
 
 Outputs:
 
