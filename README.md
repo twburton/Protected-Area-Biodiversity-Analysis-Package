@@ -32,6 +32,7 @@ Outputs:
 Summary statistics report - total # occurrences; # unique species; breakdown by higher taxa (mammals, fish, herps, vascular plants, birds, insects, freshwater invertebrates, other)
 
 Listed species report - total # of Federal listed T&E species; # state listed T&E species; # species of greatest conservation need
+
 -----------
 Audiences:
 -----------
